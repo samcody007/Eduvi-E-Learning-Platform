@@ -3,24 +3,29 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  user-select: none;
+}
+
+button {
+  cursor: pointer;
 }
 
 body {
-  font-family: "Kumbh Sans";
+  font-family: "Kumbh Sans", "Inter";
   font-style: normal;
+  background: #F7F5FA;
 }
 body .wrapper {
   width: 100%;
   display: flex;
-  align-items: center;
   justify-content: center;
 }
 body .wrapper .container {
   margin-top: 30px;
   margin-left: 40px;
   margin-right: 40px;
-  display: flex;
   align-items: center;
+  justify-content: center;
 }
 body .wrapper .container header .header-container {
   display: flex;
@@ -57,15 +62,119 @@ body .wrapper .container header .header-container .header-sections nav ul {
 body .wrapper .container header .header-container .header-sections nav ul li {
   list-style: none;
 }
-body .wrapper .container header .header-container .header-sections nav ul li a {
+body .wrapper .container header .header-container .header-sections nav ul li button {
   display: flex;
   column-gap: 10px;
   align-items: center;
-  text-decoration: none;
+  background: inherit;
+  border: none;
 }
-body .wrapper .container header .header-container .header-sections nav ul li a p {
+body .wrapper .container header .header-container .header-sections nav ul li button p {
   color: #0A033C;
   text-align: right;
   font-size: 16px;
   font-weight: 500;
+}
+body .wrapper .container main .main-container {
+  display: flex;
+  margin-top: 80px;
+  column-gap: 117px;
+}
+body .wrapper .container main .main-container .main-sections {
+  align-items: center;
+}
+body .wrapper .container main .main-container .main-sections span {
+  color: #FF6652;
+  font-size: 16px;
+  font-weight: 500;
+  width: 190px;
+  height: 36px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #FFF;
+  padding: 10px;
+}
+body .wrapper .container main .main-container .main-sections h1 {
+  width: 420px;
+  color: #0A033C;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 50px;
+  margin-top: 15px;
+}
+body .wrapper .container main .main-container .main-sections .introduction p {
+  width: 481px;
+  color: #5D5A6F;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+}
+body .wrapper .container main .main-container .main-sections .learning-parts {
+  width: 539px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  background: #FFF;
+  margin-top: 30px;
+}
+body .wrapper .container main .main-container .main-sections .learning-parts button {
+  border: none;
+  background: inherit;
+}
+body .wrapper .container main .main-container .main-sections .learning-parts .kinderg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+  margin-left: 15px;
+}
+body .wrapper .container main .main-container .main-sections .learning-parts .kinderg p {
+  color: rgba(93, 90, 111, 0.6);
+  text-align: right;
+  font-size: 14px;
+  font-weight: 500;
+}
+body .wrapper .container main .main-container .main-sections .learning-parts .kinderg svg {
+  width: 24px;
+  height: 24px;
+  background-color: red;
+}
+body .wrapper .container main .main-container .main-sections .learning-parts .class p {
+  color: rgba(93, 90, 111, 0.6);
+  font-family: Metropolis;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+body .wrapper .container main .main-container .main-sections .learning-parts #search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+  border-radius: 5px;
+  background: #9C4DF4;
+  padding: 10px 25px;
+  margin-right: 5px;
+}
+body .wrapper .container main .main-container .main-sections .learning-parts #search p {
+  color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+}
+body .wrapper .container main .main-container aside {
+  width: 332px;
+  height: 429px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }/*# sourceMappingURL=style.min.css.map */

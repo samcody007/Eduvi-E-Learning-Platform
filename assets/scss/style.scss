@@ -3,21 +3,27 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    user-select: none;
+}
+button{
+    cursor:pointer;
 }
 body{
-    font-family: 'Kumbh Sans';
+    font-family: 'Kumbh Sans', 'Inter';
     font-style: normal;
+    background: #F7F5FA;
     .wrapper{
         width: 100%;
         display: flex;
-        align-items: center;
+        // margin: 0 auto;
+        // align-items: center;
         justify-content: center;
         .container{
             margin-top: 30px;
             margin-left: 40px;
             margin-right: 40px;
-            display: flex;
             align-items: center;
+            justify-content: center;
             header{
                 .header-container{
                     display: flex;
@@ -55,11 +61,13 @@ body{
                                 li{
                                     list-style: none;
                                     
-                                    a{
+                                    button{
                                         display: flex;
                                         column-gap:10px;
                                         align-items: center;
-                                        text-decoration: none;
+                                        // text-decoration: none;
+                                        background: inherit;
+                                        border: none;
                                         p{
                                             color: #0A033C;
                                             text-align: right;
@@ -70,6 +78,116 @@ body{
                                 }
                             }
                         }
+                    }
+                }
+            }
+            main{
+                .main-container{
+                    display: flex;
+                    margin-top: 80px;  
+                    column-gap: 117px; 
+                    .main-sections{
+                        align-items: center;
+                        span{
+                            color: #FF6652;
+                            font-size: 16px;
+                            font-weight: 500;
+                            width: 190px;
+                            height: 36px;
+                            flex-shrink: 0;
+                            border-radius: 5px;
+                            background: #FFF;
+                            padding: 10px;
+                        }
+                        h1{
+                            width: 420px;
+                            color: #0A033C;
+                            font-size: 45px;
+                            font-weight: 700;
+                            line-height: 50px; 
+                            margin-top: 15px;
+                        }
+                        .introduction{
+                            p{
+                                width: 481px;
+                                color: #5D5A6F;
+                                font-size: 14px;
+                                font-weight: 400;
+                                line-height: 28px; 
+                            }
+                        }
+                        .learning-parts{
+                            width: 539px;
+                            height: 50px;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            border-radius: 5px;
+                            background: #FFF;
+                            margin-top: 30px;
+                            button{
+                                border: none;
+                                background: inherit;
+                            }
+                            .kinderg{
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                column-gap: 10px;
+                                margin-left: 15px;
+                                p{
+                                    color: rgba(93, 90, 111, 0.60);
+                                    text-align: right;
+                                    font-size: 14px;
+                                    font-weight: 500;
+                                }
+                                svg{
+                                    width: 24px;
+                                    height: 24px;
+                                    background-color: red;
+                                }
+                            }
+                            .class{
+                                p{
+                                    color: rgba(93, 90, 111, 0.60);
+                                    font-family: Metropolis;
+                                    font-size: 14px;
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    line-height: normal;
+                                }
+                            }
+                            #search{
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                column-gap: 10px;
+                                border-radius: 5px;
+                                background: #9C4DF4;
+                                padding: 10px 25px;
+                                margin-right: 5px;
+                                p{
+                                    color: #FFF;
+                                    text-align: center;
+                                    font-family: Inter;
+                                    font-size: 14px;
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    line-height: 20px; /* 142.857% */
+                                }
+                            }
+                        }
+                    }
+                    aside{
+                        width: 332px;
+                        height: 429px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        background-image: url(../img/bg.png);
+                        background-repeat: no-repeat;
+                        background-size: cover; 
+                        
                     }
                 }
             }
