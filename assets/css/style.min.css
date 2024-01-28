@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+}
+body .wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .wrapper .container {
+  margin-top: 30px;
+  margin-left: 40px;
+  margin-right: 40px;
+  display: flex;
+  align-items: center;
+}
+body .wrapper .container header .header-container {
+  display: flex;
+  align-items: center;
+  column-gap: 454px;
+}
+body .wrapper .container header .header-container .header-log {
+  display: flex;
+}
+body .wrapper .container header .header-container .header-log .logo {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+body .wrapper .container header .header-container .header-log .logo svg {
+  width: 25px;
+  height: 30px;
+  padding: 3px;
+  border-radius: 5px;
+  background: #FF6652;
+}
+body .wrapper .container header .header-container .header-log .logo h3 {
+  color: #0A033C;
+  font-family: Metropolis;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+body .wrapper .container header .header-container .header-sections nav ul {
+  display: flex;
+  column-gap: 30px;
+}
+body .wrapper .container header .header-container .header-sections nav ul li {
+  list-style: none;
+}
+body .wrapper .container header .header-container .header-sections nav ul li a {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+  text-decoration: none;
+}
+body .wrapper .container header .header-container .header-sections nav ul li a p {
+  color: #0A033C;
+  text-align: right;
+  font-size: 16px;
+  font-weight: 500;
+}/*# sourceMappingURL=style.min.css.map */

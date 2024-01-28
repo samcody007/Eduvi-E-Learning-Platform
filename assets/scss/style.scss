@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    .wrapper{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .container{
+            margin-top: 30px;
+            margin-left: 40px;
+            margin-right: 40px;
+            display: flex;
+            align-items: center;
+            header{
+                .header-container{
+                    display: flex;
+                    align-items: center;
+                    column-gap: 454px;
+                    .header-log{
+                        display: flex;
+                        .logo{
+                            display: flex;
+                            gap: 6px;
+                            align-items: center;
+                            svg{
+                                // background-color:red;
+                                width: 25px;
+                                height: 30px;
+                                padding: 3px;
+                                border-radius: 5px;
+                                background: #FF6652;
+                            }
+                            h3{
+                                color: #0A033C;
+                                font-family: Metropolis;
+                                font-size: 30px;
+                                font-style: normal;
+                                font-weight: 600;
+                                line-height: normal;
+                            }
+                        }
+                    }
+                    .header-sections{
+                        nav{
+                            ul{
+                                display: flex;
+                                column-gap: 30px;
+                                li{
+                                    list-style: none;
+                                    
+                                    a{
+                                        display: flex;
+                                        column-gap:10px;
+                                        align-items: center;
+                                        text-decoration: none;
+                                        p{
+                                            color: #0A033C;
+                                            text-align: right;
+                                            font-size: 16px;
+                                            font-weight: 500;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
