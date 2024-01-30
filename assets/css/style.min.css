@@ -16,14 +16,13 @@ body {
   background: #F7F5FA;
 }
 body .wrapper {
-  width: 100%;
   display: flex;
   justify-content: center;
 }
 body .wrapper .container {
+  width: 944px;
+  margin: 0, auto;
   margin-top: 30px;
-  margin-left: 40px;
-  margin-right: 40px;
   align-items: center;
   justify-content: center;
 }
@@ -139,7 +138,6 @@ body .wrapper .container main .main-container .main-sections .learning-parts .ki
 body .wrapper .container main .main-container .main-sections .learning-parts .kinderg svg {
   width: 24px;
   height: 24px;
-  background-color: red;
 }
 body .wrapper .container main .main-container .main-sections .learning-parts .class p {
   color: rgba(93, 90, 111, 0.6);
@@ -177,4 +175,223 @@ body .wrapper .container main .main-container aside {
   background-image: url(../img/bg.png);
   background-repeat: no-repeat;
   background-size: cover;
+}
+body .wrapper .container section {
+  margin-top: 147px;
+  padding-bottom: 40px;
+}
+body .wrapper .container section .section-container {
+  width: 907px;
+  height: 254px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../img/Pattern.png);
+  background-repeat: no-repeat;
+  background-position: 100%, 100%;
+}
+body .wrapper .container section .section-container h2 {
+  width: 432px;
+  color: #0A033C;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 40px; /* 114.286% */
+}
+body .wrapper .container section .section-container p {
+  width: 703px;
+  color: #5D5A6F;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 200% */
+}
+body .wrapper .container section .section-container #move {
+  width: 149px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #9C4DF4;
+  color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  margin-top: 30px;
+}
+body .wrapper .container .teaching {
+  margin-left: 40px;
+}
+body .wrapper .container .teaching .tutor {
+  width: 864px;
+  height: 488px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  background-image: url(../../assets/img/tutor.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 0px 50px 170px 0px rgba(0, 0, 0, 0.05);
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-bottom: 45px;
+}
+body .wrapper .container .teaching .tutor img {
+  width: 104px;
+  height: 124px;
+}
+body .wrapper .container .teaching .tutor .circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: #FF6652;
+}
+body .wrapper .container .teaching .tutor .move-to-top {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(156, 77, 244);
+}
+body .wrapper .container .teaching .top-class {
+  display: flex;
+  column-gap: 22px;
+  margin-top: 30px;
+  margin-left: 42px;
+}
+body .wrapper .container .teaching .top-class .audio {
+  width: 241px;
+  height: 84px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+body .wrapper .container .teaching .top-class .audio .icon {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 244, 242);
+  border-radius: 5px;
+}
+body .wrapper .container .teaching .top-class .audio p {
+  color: #0A033C;
+  font-size: 20px;
+  font-weight: 600;
+}
+body .wrapper .container .teaching .top-class .audio:nth-child(2) .icon {
+  background-color: rgb(248, 242, 255);
+  border-radius: 5px;
+}
+body .wrapper .container .teaching .top-class .audio:nth-child(3) .icon {
+  background-color: rgb(229, 255, 243);
+  border-radius: 5px;
+}
+body .wrapper .container .lessons-for-student {
+  margin-top: 100px;
+}
+body .wrapper .container .lessons-for-student .lesson-beginning-part {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .wrapper .container .lessons-for-student .lesson-beginning-part h2 {
+  color: #0A033C;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+body .wrapper .container .lessons-for-student .lesson-beginning-part p {
+  width: 700px;
+  color: #5D5A6F;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  margin: 20px;
+}
+body .wrapper .container .lessons-for-student .lesson-beginning-part .types-of-lesson {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  column-gap: 10px;
+}
+body .wrapper .container .lessons-for-student .lesson-beginning-part .types-of-lesson button {
+  width: 141px;
+  height: 50px;
+  text-align: center;
+  border: none;
+  background: inherit;
+  border-radius: 5px;
+  color: #0A033C;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+}
+body .wrapper .container .lessons-for-student .lesson-beginning-part .types-of-lesson button:hover {
+  background: #FF6652;
+}
+body .wrapper .container .lessons-for-student .standart-lessons {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 37px;
+  row-gap: 30px;
+  margin-top: 40px;
+}
+body .wrapper .container .lessons-for-student .standart-lessons .standart {
+  width: 290px;
+  height: 329px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFF;
+  border-radius: 15px;
+}
+body .wrapper .container .lessons-for-student .standart-lessons .standart span {
+  color: #0A033C;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+body .wrapper .container .lessons-for-student .standart-lessons .standart p {
+  width: 260px;
+  color: #5D5A6F;
+  text-align: center;
+  font-family: Metropolis;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 0, 15px;
+  margin-bottom: 25px;
+}
+body .wrapper .container .lessons-for-student .standart-lessons .standart #details {
+  width: 162px;
+  height: 44px;
+  text-align: center;
+  border: 1px solid #9C4DF4;
+  background-color: inherit;
+  color: #9C4DF4;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
 }/*# sourceMappingURL=style.min.css.map */

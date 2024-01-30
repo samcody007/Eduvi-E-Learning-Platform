@@ -13,15 +13,13 @@ body{
     font-style: normal;
     background: #F7F5FA;
     .wrapper{
-        width: 100%;
         display: flex;
-        // margin: 0 auto;
-        // align-items: center;
         justify-content: center;
         .container{
+            width: 944px;
+            margin: 0, auto;
             margin-top: 30px;
-            margin-left: 40px;
-            margin-right: 40px;
+           
             align-items: center;
             justify-content: center;
             header{
@@ -65,7 +63,6 @@ body{
                                         display: flex;
                                         column-gap:10px;
                                         align-items: center;
-                                        // text-decoration: none;
                                         background: inherit;
                                         border: none;
                                         p{
@@ -144,7 +141,6 @@ body{
                                 svg{
                                     width: 24px;
                                     height: 24px;
-                                    background-color: red;
                                 }
                             }
                             .class{
@@ -190,6 +186,233 @@ body{
                         
                     }
                 }
+            }
+            section{
+                margin-top: 147px;
+                padding-bottom: 40px; 
+                .section-container{
+                    width: 907px;
+                    height: 254px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    background-image: url(../img/Pattern.png);
+                    background-repeat: no-repeat;
+                    background-position: 100%, 100%;
+                    h2{
+                        width: 432px;
+                        color: #0A033C;
+                        text-align: center;
+                        font-size: 35px;
+                        font-weight: 700;
+                        line-height: 40px; /* 114.286% */
+                    }
+                    p{
+                        width: 703px;
+                        color: #5D5A6F;
+                        text-align: center;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 28px; /* 200% */
+                    }
+                    #move{
+                        width: 149px;
+                        height: 50px;
+                        flex-shrink: 0;
+                        border-radius: 5px;
+                        background: #9C4DF4;
+                        color: #FFF;
+                        text-align: center;
+                        font-family: Inter;
+                        font-size: 14px;
+                        font-weight: 500;
+                        border: none;
+                        margin-top: 30px;
+                    }
+                }
+            }
+            .teaching{
+                margin-left: 40px;
+                // display: flex;
+                .tutor{
+                    width: 864px;
+                    height: 488px;
+                    display: flex;
+                    align-items: flex-end;
+                    justify-content: space-between;
+                    background-image: url(../../assets/img/tutor.png);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-color: rgba(255, 255, 255, 1);
+                    border-radius: 10px;
+                    box-shadow: 0px 50px 170px 0px rgba(0, 0, 0, 0.05);
+                    padding-left: 45px;
+                    padding-right: 45px;
+                    padding-bottom: 45px;
+                    img{
+                        width: 104px;
+                        height: 124px;
+                    }
+                    .circle{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 50px;
+                        height: 50px;
+                        border-radius: 100%;
+                        background-color: #FF6652;
+                    }
+                    .move-to-top{
+                        width: 50px;
+                        height: 50px;
+                        border-radius: 100%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        background-color: rgba(156, 77, 244, 1);
+                    }
+                }
+                .top-class{
+                    display: flex;
+                    column-gap: 22px;
+                    margin-top: 30px;
+                    margin-left: 42px;
+                    .audio{
+                        width: 241px;
+                        height: 84px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        column-gap: 20px;
+                        background-color: #fff;
+                        border-radius: 10px;
+                        .icon{
+                            width: 44px;
+                            height: 44px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            background-color: rgba(255, 244, 242, 1);
+                            border-radius: 5px;
+                        }
+                        p{
+                            color: #0A033C;
+                            font-size: 20px;
+                            font-weight: 600;
+                        }
+                    }
+                    .audio:nth-child(2){
+                        .icon{
+                            background-color: rgba(248, 242, 255, 1);
+                            border-radius: 5px;
+                        }
+                    }
+                    .audio:nth-child(3){
+                        .icon{
+                            background-color: rgba(229, 255, 243, 1);
+                            border-radius: 5px;
+                        }
+                    }
+                }
+            }
+            .lessons-for-student{
+               
+                margin-top: 100px;
+                .lesson-beginning-part{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    // justify-content: center;
+                    h2{
+                        color: #0A033C;
+                        text-align: center;
+                        font-size: 35px;
+                        font-weight: 700;
+                    }
+                    p{
+                        width: 700px;
+                        color: #5D5A6F;
+                        text-align: center;
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 28px; 
+                        margin: 20px;
+                    }
+                    .types-of-lesson{
+                        display: flex;
+                        justify-content: center;
+                        margin-top: 40px;
+                        column-gap: 10px;
+                        button{
+                            width: 141px;
+                            height: 50px;
+                            text-align: center;
+                            border: none;
+                            background: inherit;
+                            border-radius: 5px;
+                            color: #0A033C;
+                            font-family: Inter;
+                            font-size: 14px;
+                            font-weight: 500;
+                        }
+                        button:hover{
+                            background: #FF6652;
+                        }
+                    }
+                }
+               .standart-lessons{
+                display: flex;
+                flex-wrap: wrap;
+                column-gap: 37px;
+                row-gap: 30px;
+                margin-top: 40px;
+                .standart{
+                    width: 290px;
+                    height: 329px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: #FFF;;
+                    border-radius: 15px;
+                   
+                    span{
+                        color: #0A033C;
+                        text-align: center;
+                        font-size: 25px;
+                        font-weight: 600;
+                        margin-top: 20px;
+                    }
+                    p{
+                        width: 260px;
+                        color: #5D5A6F;
+                        text-align: center;
+                        font-family: Metropolis;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 30px; 
+                        margin: 0, 15px;
+                        margin-bottom: 25px;
+                    }
+                    #details{
+                        width: 162px;
+                        height: 44px;
+                        text-align: center;
+                        border:  1px solid #9C4DF4;
+                        background-color: inherit;
+                        color: #9C4DF4;
+                        text-align: center;
+                        font-family: Inter;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 20px; 
+                    }
+                }
+               }
             }
         }
     }
