@@ -398,6 +398,11 @@ body .wrapper .container .lessons-for-student .standart-lessons .standart #detai
   font-style: normal;
   font-weight: 500;
   line-height: 20px;
+  border-radius: 5px;
+}
+body .wrapper .container .lessons-for-student .standart-lessons .standart #details:hover {
+  background-color: rgb(156, 77, 244);
+  color: white;
 }
 body .wrapper .container .lessons-for-student #change-page {
   width: 184px;
@@ -477,4 +482,10 @@ body .wrapper .container .level aside {
   background-image: url(../img/Pattern-2.png);
   background-repeat: no-repeat;
   background-position: 38% 22%;
+}
+body .wrapper .container .sharing-skill {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }/*# sourceMappingURL=style.min.css.map */

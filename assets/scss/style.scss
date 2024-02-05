@@ -412,6 +412,11 @@ body{
                         font-style: normal;
                         font-weight: 500;
                         line-height: 20px; 
+                        border-radius: 5px;
+                    }
+                    #details:hover{
+                        background-color: rgba(156, 77, 244, 1);
+                        color: white;
                     }
                 }
                }
@@ -496,6 +501,12 @@ body{
                     background-repeat: no-repeat;
                     background-position: 38% 22%;
                 }
+            }
+            .sharing-skill{
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
             }
         }
     }
